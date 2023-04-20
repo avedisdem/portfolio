@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './About'
+import Contacts from './Contacts'
+import Header from './Header'
+import ProjectsCont from './ProjectsCont'
+import {Route,Routes} from 'react-router-dom'
+import Color from './ColorGenerator/Color'
+import Skills from './Skills'
+import './Style/App.css'
+import Todo from './TodoList/Todo'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+        <Route exact path="/" element={
+          <div className="app">
+            <Header /> 
+            <About/>
+            <Skills />
+            <ProjectsCont />
+            <Contacts />
+          </div>}/>
+            <Route exact path="/TodoList" element={<Todo/>}/>  
+            <Route exact path="/ColorGenerator" element={<Color/>}/>  
+    </Routes>
+  )
 }
 
-export default App;
+export default App

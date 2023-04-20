@@ -1,0 +1,83 @@
+.projects1{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+.projects2{
+    display: flex;
+    justify-content: start;
+    flex-direction:row-reverse;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.projects1 > a > img {
+    width: 300px;
+    transition:transform 0.4s !important;   
+    object-fit: contain;
+    border-radius: 10%;
+    border: 1px solid var(--purple);
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.projects2 > a > img {
+    width: 300px;
+    transition:transform 0.4s !important;
+    object-fit: contain;
+    border-radius: 10%;
+    border: 1px solid var(--purple);
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.projects1 > span {
+    font-size: 23px;
+    color: var(--purple);
+    margin-right: 9px;
+ }
+
+.projects2 > span {
+   font-size: 23px;
+   margin-left: 9px;
+   color: var(--purple);
+}
+
+.projects1 > a > img:hover {
+    transform: scale(1.05);
+}
+
+.projects2 > a > img:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+    .projects1 {
+      display: grid;
+      margin-right: 0px;
+      justify-content: start;
+    }
+    .projects2 {
+        display: grid;
+        margin-left: 0px;
+        justify-content: start;
+    }
+
+    .projects1 > span {
+        margin-bottom: 10px;
+    }
+    .projects2 > span{
+        margin-bottom: 10px;
+    }
+
+    .projects1 > a > img {
+        width: 250px;
+        object-fit: contain;
+
+    }
+    
+    .projects2 > a > img {
+        width: 250px; 
+        object-fit: contain;
+    }
+    
+}

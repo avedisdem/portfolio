@@ -1,0 +1,54 @@
+.todo {
+    color: black;
+    letter-spacing: 3px;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+div > a {
+   text-decoration: none;
+   color: #555;
+}
+div > a:hover {
+    color:blue;
+ }
+
+.todo__bottom {
+    margin: 40px 0px;
+
+}
+
+.todo__bottom > input {
+    border: none;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 5%;
+    background-color: #555555;
+    color: white;
+    text-align: center;
+}
+
+.todo__bottom > Button {
+    height: 30px;
+    background-color:#666 !important;
+    color: white;
+    border: 1px solid #555;
+}
+
+.todo__bottom > Button:hover {
+    height: 30px;
+    background-color:#555 !important;
+    color: #ccc;
+    border: 1px solid #666;
+}
+
+
+.todo__todos{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(33, 33, 33);
+}

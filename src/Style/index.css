@@ -1,0 +1,13 @@
+#root{
+    --purple:rgba(42, 22, 73, 0.89);
+    --lightwhite:rgb(230, 230, 230);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+}

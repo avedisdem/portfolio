@@ -1,0 +1,47 @@
+.infos {
+    display: flex;
+    align-items: center;
+}
+
+.infos > a > img {
+    margin-top: 30px;
+    width: 65px;
+    padding: 9px;
+    border-radius: 99%;
+    background-color: var(--lightwhite);
+}
+
+.infos > span {
+    margin-top: 30px;
+    color: var(--lightwhite);
+    font-size: 28px;
+    padding: 10px;
+}
+
+.infosButton{
+   transition: transform .4s,background-color .4s !important;
+   cursor: pointer;
+}
+
+.infosButton:hover {
+    transform: scale(1.2) !important;
+    background-color: gray !important;
+}
+
+@media screen and (max-width: 600px) {
+    .infos > span {
+        font-size: 25px;
+    }
+    .infos > a > img{
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .infos > span {
+        font-size: 17px;
+    }
+    .infos > a > img{
+        width: 30px;
+    }
+}

@@ -1,0 +1,184 @@
+
+.empty{
+  margin-top: 70px;
+  color: black;
+}
+* {
+  margin:0;
+}
+.container {
+  background-color: rgb(179, 184, 179);
+  text-align: center;
+  padding: 20px;
+}
+
+.container > span{
+  margin-left: 4px;
+  font-weight: 1000;
+}
+
+.app > .container > span {
+  
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+
+.app__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+ 
+}
+
+.app__item {
+  display: flex;
+  position: relative;
+  background-color: rgb(186, 182, 182);
+  margin-left: 20px;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  min-width: 130px;
+  min-height: 200px;
+}
+
+.app__color {
+  position: absolute;
+  background-color: red;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  width: 100%;
+  height: 80%;
+}
+
+.app__item > p{
+  color:rgb(180, 88, 88) ;
+  font-weight: 1000; 
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 90%;
+  background-color: rgba(0,0,0,0);
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+.app > h3 {
+  color:blue; 
+  background-color: rgb(223, 219, 219);
+  width: 200px;
+  border-radius: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  text-align: center;
+  margin-top: 20px;
+}
+.app > a  {
+  text-decoration: none;
+  color:#555;
+  text-align: center;
+}
+
+.app > a:hover  {
+  color:blue;
+}
+
+
+.app > h3:hover {
+  cursor: pointer;
+  color:whitesmoke;
+  background-color: blue;
+}
+
+@media (max-width: 600px) {
+  .app__container { grid-template-columns: repeat(1, 1fr);
+    margin-top: 200px;
+  }
+  .app > p {
+    width: 100%;
+  }
+  .app__container > h3 {
+    transform: translate(20%, 100%);
+  }
+
+}
+
+@media (min-width: 600px) {
+  .app__container { 
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  .app__container { grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (min-width: 1050px) {
+  .app__container { grid-template-columns: repeat(4, 1fr); }
+}
+@media (min-width: 1200px) {
+  .app__container { grid-template-columns: repeat(5, 1fr); }
+}
+
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app__container {
+  display: flex;
+  place-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.app__item {
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  border: 2.3px solid white;
+  min-width: 130px;
+  min-height: 200px;
+}
+
+.app__color {
+  position: absolute;
+  background-color: red;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  width: 100%;
+  height: 80%;
+ 
+}
+
+.app__item > span {
+  color:green !important; 
+}

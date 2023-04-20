@@ -1,0 +1,24 @@
+.progressBar{
+    height: 20px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 50px;
+    margin-left: 20px;
+}
+
+.progressBar > span {
+    margin-bottom: 10px !important;
+    font-size: 18px;
+} 
+
+.progressBar__filler {
+    height: 100%;
+    border-radius:inherit;
+    text-align: right;
+}
+
+.progressBar__label{
+    padding: 5px;
+    color: white;
+    font-weight:bold;
+}
