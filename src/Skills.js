@@ -3,13 +3,13 @@ import './Style/Skills.css'
 import ProgressBar from "./ProgressBar";
 
 const testData = [
-  { bgcolor: "#6a1b9a", completed: 30 , title: "React"},
-  { bgcolor: "#00695c", completed: 28 , title: "CSS"},
-  { bgcolor: "#ef6c00", completed: 34 , title: "HTML"},
-  { bgcolor: "#447799", completed: 27 , title: "JS"},
-  { bgcolor: "#123499", completed: 30 , title: "C#"},
-  { bgcolor: "#993255", completed: 30 , title: "Unity"},
-  { bgcolor: "#5bca50", completed: 23 , title: "C++"},
+  { bgcolor: "#6a1b9a", completed: 50 , title: "React"},
+  { bgcolor: "#00695c", completed: 45 , title: "CSS"},
+  { bgcolor: "#ef6c00", completed: 45 , title: "HTML"},
+  { bgcolor: "#447799", completed: 47 , title: "JS"},
+  { bgcolor: "#123499", completed: 44 , title: "C#"},
+  { bgcolor: "#993255", completed: 40 , title: "Unity"},
+  { bgcolor: "#5bca50", completed: 38 , title: "C++"},
   
 ];
 

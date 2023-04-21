@@ -110,43 +110,43 @@ function Color() {
       </div>
       <div className='color__container'>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[0] ?  randomColor[0]:"#765427" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[0] ?  randomColor[0]:"#765427" }} className="color__color" />
           <p style={{color:randomColor[0] ?  randomColor[0]:{}}}>{randomColor[0] ? randomColor[0]:"#765427"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[1] ?  randomColor[1]:"#135" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[1] ?  randomColor[1]:"#135" }} className="color__color" />
           <p style={{color:randomColor[1] ?  randomColor[1]:{}}} > {randomColor[1] ? randomColor[1]:"#135"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[2] ?  randomColor[2]:"#4343" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[2] ?  randomColor[2]:"#4343" }} className="color__color" />
           <p style={{color:randomColor[2] ?  randomColor[2]:{}}}> {randomColor[2] ? randomColor[2]:"#4343"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[3] ?  randomColor[3]:"#65527" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[3] ?  randomColor[3]:"#65527" }} className="color__color" />
           <p style={{color:randomColor[3] ?  randomColor[3]:{}}}> {randomColor[3] ? randomColor[3]:"#65527"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[4] ?  randomColor[4]:"#241172" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[4] ?  randomColor[4]:"#241172" }} className="color__color" />
           <p style={{color:randomColor[4] ?  randomColor[4]:{}}}> {randomColor[4] ? randomColor[4]:"#241172"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[5] ?  randomColor[5]:"#643436" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[5] ?  randomColor[5]:"#643436" }} className="color__color" />
           <p style={{color:randomColor[5] ?  randomColor[5]:{}}}> {randomColor[5] ? randomColor[5]:"#643436"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[6] ?  randomColor[6]:"#900900" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[6] ?  randomColor[6]:"#900900" }} className="color__color" />
           <p style={{color:randomColor[6] ?  randomColor[6]:{}}}> {randomColor[6] ? randomColor[6]:"#900900"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[7] ?  randomColor[7]:"#996060" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[7] ?  randomColor[7]:"#996060" }} className="color__color" />
           <p style={{color:randomColor[7] ?  randomColor[7]:{}}}> {randomColor[7] ? randomColor[7]:"#996060"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[8] ?  randomColor[8]:"#609090" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[8] ?  randomColor[8]:"#609090" }} className="color__color" />
           <p style={{color:randomColor[8] ?  randomColor[8]:{}}}> {randomColor[8] ? randomColor[8]:"#609090"}</p>
         </div>
         <div className="color__item">
-          <div style = {{backgroundColor:randomColor[9] ?  randomColor[9]:"#327733" }} className="app__color" />
+          <div style = {{backgroundColor:randomColor[9] ?  randomColor[9]:"#327733" }} className="color__color" />
           <p style={{color:randomColor[9] ?  randomColor[9]:{}}}> {randomColor[9] ? randomColor[9]:"#327733"}</p>
         </div> 
       </div>
