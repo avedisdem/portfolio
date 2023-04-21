@@ -3,9 +3,9 @@
     align-items: center;
 }
 
-.infos > a > img {
+.infos > a > .MuiSvgIcon-root {
     margin-top: 30px;
-    width: 65px;
+    font-size: 40px;
     padding: 9px;
     border-radius: 99%;
     background-color: var(--lightwhite);
@@ -32,7 +32,7 @@
     .infos > span {
         font-size: 25px;
     }
-    .infos > a > img{
+    .infos > a > .MuiSvgIcon-root{
         width: 40px;
     }
 }
@@ -41,7 +41,7 @@
     .infos > span {
         font-size: 17px;
     }
-    .infos > a > img{
+    .infos > a > .MuiSvgIcon-root{
         width: 30px;
     }
 }
