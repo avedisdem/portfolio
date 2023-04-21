@@ -24,6 +24,7 @@ function ProjectsCont() {
             text = {"Toon Survival is a game where your objectif is to survive as much as possible made with Unity and C#"}
             img={Toon}
             className={"projects1"}
+            type={"blank"}
             link={"https://play.google.com/store/apps/details?id=com.DemirjianDev.ToonSurvival"}
           /> 
     </div>
