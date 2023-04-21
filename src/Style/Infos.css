@@ -5,9 +5,10 @@
 
 .infos > a > .MuiSvgIcon-root {
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 60px;
     padding: 9px;
     border-radius: 99%;
+    color: var(--purple);
     background-color: var(--lightwhite);
 }
 
@@ -25,6 +26,7 @@
 
 .infosButton:hover {
     transform: scale(1.2) !important;
+    color: rgba(62, 42, 93, 0.89) !important;
     background-color: gray !important;
 }
 
@@ -33,7 +35,7 @@
         font-size: 25px;
     }
     .infos > a > .MuiSvgIcon-root{
-        width: 40px;
+        font-size: 40px;
     }
 }
 
@@ -42,6 +44,6 @@
         font-size: 17px;
     }
     .infos > a > .MuiSvgIcon-root{
-        width: 30px;
+        font-size: 30px;
     }
 }

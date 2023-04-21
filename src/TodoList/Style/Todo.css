@@ -7,7 +7,7 @@
     padding-top: 70px;
 }
 
-div > a {
+.todo > a {
    text-decoration: none;
    color: #555;
 }

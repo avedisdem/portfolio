@@ -5,7 +5,7 @@ function Infos({Icon,text,className,link}) {
  
   return (
     <div className="infos"> 
-        <a target='_blank' href={link}><Icon/></a>
+        <a target='_blank' href={link}><Icon className = {className}/></a>
         <span>{text}</span>
     </div>
   )
