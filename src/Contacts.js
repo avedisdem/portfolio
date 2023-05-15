@@ -23,7 +23,7 @@ function Contacts() {
             
            <Infos
                 Icon={EmailIcon}
-                text={"avedis.demirjian1812@gmail.com"}
+                text={"av.demirjian@gmail.com"}
             />
 
         </div>
