@@ -21,7 +21,6 @@
   color: white;
 }
 .container {
-  position: relative;
   background-color: #333;
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
