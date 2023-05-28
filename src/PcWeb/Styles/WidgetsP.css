@@ -1,7 +1,5 @@
 .widgetsp {
-    position:relative;
-    text-align: center;
-    color: red !important;
+    position:relative !important;
 }
 .widgetsp > img {
     width: 40%;
