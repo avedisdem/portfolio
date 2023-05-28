@@ -1,0 +1,129 @@
+ body{
+  margin: 0;
+ }
+.pcweb {
+  background-color: #333;
+  text-align: center;
+  overflow-x: hidden;
+}
+.pcweb__margin {
+  margin-top: 650px;
+}
+
+.pcweb-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container {
+  background-color: #333;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+}
+
+.pcweb__FadeInCont  {
+  display: flex;
+  width: 100%;
+  
+}
+.pcweb__FadeInCont > img {
+ width: 500px;
+ border-radius: 10% / 45%;
+}
+
+.pcweb__FadeInCont > p {
+  margin: auto;
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  transition: color .3s;
+}
+
+.pcweb__FadeInCont > p:hover {
+ color:#ccc;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width:1200px) {
+  .pcweb__FadeInCont > img {
+    width: 350px;
+    border-radius: 10% / 45%;
+   }
+   
+   .pcweb__FadeInCont > p {
+     margin: auto;
+     width: 100%;
+     padding: 0 10px;
+     text-align: center;
+     transition: color .3s;
+   }
+}
+
+@media screen and (max-width:900px) {
+  .pcweb__FadeInCont  {
+    display: grid;
+    text-align: center;
+   }
+   
+   .pcweb__FadeInCont > img {
+      margin:10px auto;
+      
+   }
+   .pcweb__FadeInCont > p {
+      text-align: center;
+   }
+   .pcweb__margin {
+      margin-top: 550px;
+   }
+}
+@media screen and (max-width:700px) {
+
+  .pcweb__margin {
+    margin-top: 450px;
+  }
+}
+@media screen and (max-width:600px) {
+
+  .pcweb__margin {
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+   .pcweb__FadeInCont > img {
+      width: 250px;
+      margin:10px auto;
+      
+   }
+   .pcweb__FadeInCont > p {
+      text-align: center;
+   }
+   .pcweb__margin {
+      margin-top: 300px;
+  }
+}
+@media screen and (max-width:450px) {
+
+  .pcweb__margin {
+     margin-top: 220px;
+ }
+}
+
+
+
+
+
+
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

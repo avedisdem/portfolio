@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import Color from './ColorGenerator/Color'
 import Skills from './Skills'
 import './Style/App.css'
+import Pcweb from './PcWeb/PcWeb'
 import Todo from './TodoList/Todo'
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
             <Contacts />
           </div>}/>
             <Route exact path="/TodoList" element={<Todo/>}/>  
-            <Route exact path="/ColorGenerator" element={<Color/>}/>  
+            <Route exact path="/ColorGenerator" element={<Color/>}/>
+            {<Route exact path="/PcWeb" element={<Pcweb/>}/>   }
     </Routes>
   )
 }
