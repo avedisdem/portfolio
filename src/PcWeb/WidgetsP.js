@@ -3,7 +3,7 @@ import './Styles/WidgetsP.css';
 
 function WidgetsP({img,desc}) {
   return (
-    <div className='widgetsp' style={{position:'relative'}}>
+    <div className='widgetsp' >
         <img src={img}/>
         <p>{desc}</p>
     </div>
