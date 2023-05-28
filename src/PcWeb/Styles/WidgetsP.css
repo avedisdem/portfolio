@@ -1,20 +1,20 @@
-.widgets {
+.widgetsp {
     position:relative;
     text-align: center;
     color: red !important;
 }
-.widgets > img {
+.widgetsp > img {
     width: 40%;
     border-radius: 5%;
     box-shadow: 4px 4px 4px 4px rgb(33, 33, 33);
     cursor: pointer;
     transition: transform 1s ease ;
 }
-.widgets > img:hover  {
+.widgetsp > img:hover  {
     transform: scale(1.07);
 }
 
-.widgets  >  p {
+.widgetsp  >  p {
     color: lightgray;
     position:absolute;
     text-align: center;
@@ -24,36 +24,36 @@
 }
 
 @media screen and (max-width:1200px) {
-    .widgets  >  p {
+    .widgetsp  >  p {
         right: 30%;
         font-size: 16px;
     }
 }
 
 @media screen and (max-width:800px) {
-    .widgets > img {
+    .widgetsp > img {
         width: 50%;
     }
-    .widgets  >  p {
+    .widgetsp  >  p {
         right: 26%;
         font-size: 16px;
     }
 }
 @media screen and (max-width:670px) {
-    .widgets > img {
+    .widgetsp > img {
         width: 70%;
     }
-    .widgets  >  p {
+    .widgetsp  >  p {
         right: 16%;
         font-size: 15px;
     }
 }
 
 @media screen and (max-width:460px) {
-    .widgets > img {
+    .widgetsp > img {
         width: 90%;
     }
-    .widgets  >  p {
+    .widgetsp  >  p {
         right: 7%;
         font-size: 15px;
     }

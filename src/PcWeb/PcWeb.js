@@ -8,7 +8,7 @@ import logo3 from './Images/Monitors.jpg'
 import logo4 from './Images/PcGaming.jpg'
 import logo5 from './Images/CustomBuild.jpg'
 import './Styles/PcWeb.css';
-import Widgets from './Widgets';
+import WidgetsP from './WidgetsP';
 import FooterP from './FooterP';
 
 
@@ -32,19 +32,19 @@ function PcWeb() {
           </div>
       </FadeInSection>
       <div className='container'>
-        <Widgets 
+        <WidgetsP 
           img={logo3}
           desc= "Newest Technologies"
         />
-        <Widgets 
+        <WidgetsP 
           img={logo4}
           desc= "Best Hardwares"
         />
-        <Widgets 
+        <WidgetsP 
           img={logo5}
           desc= "Best Prebuilt PC "
         />
-        <Widgets 
+        <WidgetsP 
           img={logo}
           desc= "Top optimization"
         />
