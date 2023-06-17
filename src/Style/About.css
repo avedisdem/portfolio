@@ -1,7 +1,8 @@
 .about {
     background-color: var(--purple);
     padding: 40px;
-    display: flex;
+    display: grid;
+
 }
 
 .about__container{
@@ -33,6 +34,14 @@
     font-size: 21px;
     
 }
+.CV{
+    margin:0 auto;
+    margin-top: 50px;
+    font-size: 1.6rem;
+    color: white;
+    transition: color .3s;
+}
+
 
 .about__rightPart > img {
     margin-top: 5px;

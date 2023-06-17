@@ -1,9 +1,12 @@
 import React from 'react'
 import './Style/About.css'
 import logo from './Pics/myself.jpg';
+import CV from'./Download/avedis-demirjian.pdf';
 
 
 function About() {
+
+  
   return (
     <div id='About' className='about'>
       <div className="about__container">
@@ -22,6 +25,7 @@ function About() {
         </div>
       </div>
       
+      <a className='CV'href={CV} download="avedis-demirjian_CV" >Download my CV</a>
         
     </div>
   )
