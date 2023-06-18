@@ -69,6 +69,10 @@
        display: flex;
        justify-content: space-evenly;
     }
+    .about__rightPart  > img{
+        width: 170px !important;
+        height: 170px;
+     }
 
 }
 
