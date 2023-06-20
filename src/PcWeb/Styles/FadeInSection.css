@@ -24,3 +24,16 @@
   margin-right: 70px;
   margin-left: 0px;
 }
+
+
+@media screen and (max-width:900px) {
+  .fade-in-section.is-visible{
+    margin-left: 0px;
+   }
+   .right {
+    margin-top: 40px;
+    margin-right: screen/2 ;
+   
+  }
+  
+}
