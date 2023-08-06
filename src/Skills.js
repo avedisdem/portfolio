@@ -4,6 +4,7 @@ import ProgressBar from "./ProgressBar";
 
 const testData = [
   { bgcolor: "#6a1b9a", completed: 50 , title: "React"},
+  { bgcolor: "#231cca", completed: 35 , title: "NextJS"},
   { bgcolor: "#00695c", completed: 45 , title: "CSS"},
   { bgcolor: "#ef6c00", completed: 45 , title: "HTML"},
   { bgcolor: "#447799", completed: 47 , title: "JS"},
