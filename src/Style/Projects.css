@@ -67,9 +67,13 @@
     }
 
     .projects1 > span {
+        margin-top: 10px;
+        width: 250px;
         margin-bottom: 10px;
     }
     .projects2 > span{
+        margin-top: 10px;
+        width: 250px;
         margin-bottom: 10px;
     }
 
