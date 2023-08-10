@@ -31,12 +31,16 @@
 }
 
 .projects1 > span {
+    margin-top: 45px;
+    width: 400px;
     font-size: 23px;
     color: var(--purple);
     margin-right: 9px;
  }
 
 .projects2 > span {
+    margin-top: 45px;
+    width: 400px;
    font-size: 23px;
    margin-left: 9px;
    color: var(--purple);
