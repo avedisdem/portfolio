@@ -9,8 +9,7 @@
     visibility 1200ms ease-out;
     will-change: opacity, transform, visibility,width;
     margin-left: 40px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 50px;
 }
 .fade-in-section.is-visible {
     width: auto;
@@ -31,9 +30,14 @@
     margin-left: 0px;
    }
    .right {
+    width: 100%;
     margin-top: 40px;
-    margin-right: screen/2 ;
-   
+    margin-right: 90px;
   }
-  
+}
+
+@media screen and (max-width:400px) {
+   .right {
+    margin-right: 71px;
+  }
 }

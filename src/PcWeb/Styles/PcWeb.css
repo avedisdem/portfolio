@@ -82,6 +82,7 @@
    }
    .pcweb__FadeInCont > p {
       text-align: center;
+      max-width: 500px;
    }
    .pcweb__margin {
       margin-top: 550px;
@@ -92,11 +93,18 @@
   .pcweb__margin {
     margin-top: 450px;
   }
+
+  .pcweb__FadeInCont > p {
+    max-width: 400px;
+  }
 }
 @media screen and (max-width:600px) {
 
   .pcweb__margin {
     margin-top: 350px;
+  }
+  .pcweb__FadeInCont > p {
+    max-width: 300px;
   }
 }
 
@@ -108,7 +116,7 @@
       
    }
    .pcweb__FadeInCont > p {
-      text-align: center;
+    max-width: 250px;
    }
    .pcweb__margin {
       margin-top: 300px;
