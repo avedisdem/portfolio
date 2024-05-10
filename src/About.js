@@ -11,7 +11,7 @@ function About() {
     <div id='About' className='about'>
       <div className="about__container">
         <div className="about__leftPart">
-          <h1>Avedis Demirjian</h1>
+          <h1>Awadis Demirjian</h1>
             <br/>
             <span style = {{fontWeight:"900"}}>A Front-End Developer</span>
             <span>Knowledge in <span style = {{fontWeight:"900"}} > Javascript</span> including:</span> 
