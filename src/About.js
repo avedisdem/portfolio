@@ -24,7 +24,7 @@ function About() {
            <img src={logo} />
         </div>
       </div>
-      <a className='CV'href={CV} download="awadis-demirjian_CV.pdf
+      <a className='CV'href={CV} download="awadis-demirjian_CV
 " >Download my CV</a>
     </div>
   )
