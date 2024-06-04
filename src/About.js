@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style/About.css'
 import logo from './Pics/myself.jpg';
-import CV from'./Download/avedis-demirjian.pdf';
+import CV from'./Download/awadis-demirjian_CV.pdf';
 
 
 function About() {
