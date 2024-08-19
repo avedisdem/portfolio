@@ -3,11 +3,6 @@ import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'; 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
-/*import PhoneImg from './Pics/PhoneImg.PNG';
-import EmailImg from './Pics/EmailImg.jpg';
-import LinkedInImg from './Pics/LinkedInImg.png';
-import GitHubImg from './Pics/GitHubImg.png';*/
-
 import './Style/Contacts.css'
 import Infos from './Infos';
 
