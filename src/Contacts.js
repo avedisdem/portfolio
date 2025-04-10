@@ -26,7 +26,7 @@ function Contacts() {
             <Infos
                 Icon={LinkedInIcon}
                 className ="infosButton"
-                link={"https://www.linkedin.com/in/avedis-demirjian-48b59925b/"}
+                link={"https://www.linkedin.com/in/awadis-demirjian/"}
             />
             <Infos
                 Icon={GitHubIcon}
