@@ -13,7 +13,7 @@ function Contacts() {
             <h1>Contact Info</h1>
             <Infos
                 Icon={PhoneEnabledIcon}
-                text={"+1 818 425 8449"}             
+                text={"+1 818 454 8632"}             
                 />
             
            <Infos
