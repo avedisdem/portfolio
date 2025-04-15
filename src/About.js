@@ -25,7 +25,7 @@ function About() {
         </div>
       </div>
       <a className='CV'href={CV} download="awadis-demirjian_CV
-" >Download my CV</a>
+" >Download my resume</a>
     </div>
   )
 }
