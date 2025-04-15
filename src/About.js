@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style/About.css'
 import logo from './Pics/myself.jpg';
-import CV from'./Download/awadis-demirjian_CV.pdf';
+import CV from'./Download/Awadis Demirjian Resume.pdf';
 
 
 function About() {
@@ -24,7 +24,7 @@ function About() {
            <img src={logo} />
         </div>
       </div>
-      <a className='CV'href={CV} download="awadis-demirjian_CV
+      <a className='CV'href={CV} download="Awadis Demirjian Resume
 " >Download my resume</a>
     </div>
   )
