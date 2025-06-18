@@ -13,11 +13,8 @@ function About() {
         <div className="about__leftPart">
           <h1>Awadis Demirjian</h1>
             <br/>
-            <span style = {{fontWeight:"900"}}>Interseted In Network Engineering</span>
-            <span>Planning to take the <span style = {{fontWeight:"900"}}> CCNA </span>certificate</span>
-            <span>Knowledge in <span style = {{fontWeight:"900"}} > Javascript</span> including:</span> 
-            <span style = {{fontWeight:"900"}}>React, Redux</span>
-            <span>Competent in <span style = {{fontWeight:"900"}}> C#</span> and <span style = {{fontWeight:"900"}}> Unity</span> </span>
+            <span style = {{fontWeight:"900"}}>Aspiring professional network engineer.</span>
+            <span> <span style = {{fontWeight:"900"}}> CCNA </span> certified in networking certificate</span>
         </div>
 
         <div className="about__rightPart">
