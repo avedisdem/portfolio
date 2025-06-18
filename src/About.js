@@ -13,9 +13,9 @@ function About() {
         <div className="about__leftPart">
           <h1>Awadis Demirjian</h1>
             <br/>
-            <span style = {{fontWeight:"900"}}>IT Enthusiast | Eager Learner in Networking & Cybersecurity</span>
+            <span style = {{fontWeight:"900"}}>IT Enthusiast | Eager Learner in Networking & Cybersecurity.</span>
             <span style = {{fontWeight:"900"}}>Aspiring professional network engineer.</span>
-            <span> <span style = {{fontWeight:"900"}}> CCNA </span> certified in networking certificate</span>
+            <span> <span style = {{fontWeight:"900"}}> CCNA </span> certified in networking certificate.</span>
         </div>
 
         <div className="about__rightPart">
